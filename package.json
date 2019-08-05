@@ -1,0 +1,45 @@
+{
+  "name": "mern_shopping_list",
+  "version": "1.0.0",
+  "description": "Starter kit for creating React and Express apps",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.1",
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.1",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "fs": "0.0.1-security",
+    "global": "^4.3.2",
+    "mongoose": "^5.2.13",
+    "multer": "^1.4.1",
+    "react-cookie": "^3.0.4",
+    "react-google-maps": "^9.4.5",
+    "react-scroll-to-component": "^1.0.2",
+    "request": "^2.88.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradtraversy/react_express_starter.git"
+  },
+  "keywords": [
+    "mern"
+  ],
+  "bugs": {
+    "url": "https://github.com/bradtraversy/react_express_starter/issues"
+  },
+  "homepage": "https://github.com/bradtraversy/react_express_starter#readme"
+}
